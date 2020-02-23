@@ -10,12 +10,12 @@
 
     <distributionManagement>
         <snapshotRepository>
-            <id>snapshot</id>
+            <id>github</id>
             <layout>default</layout>
-            <url>file:///${project.basedir}/artifact</url>
+            <url>https://maven.pkg.github.com/johnson-phillips/${groupId}.${artifactId}</url>
         </snapshotRepository>
         <repository>
-            <id>repo</id>
+            <id>github</id>
         </repository>
     </distributionManagement>
 
